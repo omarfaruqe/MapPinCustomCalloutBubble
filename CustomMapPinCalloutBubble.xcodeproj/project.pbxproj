@@ -13,6 +13,9 @@
 		4255CA051B8CB16E0015EB8E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4255CA041B8CB16E0015EB8E /* Images.xcassets */; };
 		4255CA081B8CB16E0015EB8E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4255CA061B8CB16E0015EB8E /* LaunchScreen.xib */; };
 		4255CA141B8CB16E0015EB8E /* CustomMapPinCalloutBubbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4255CA131B8CB16E0015EB8E /* CustomMapPinCalloutBubbleTests.swift */; };
+		4255CA1E1B8CB2330015EB8E /* Callout.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4255CA1D1B8CB2330015EB8E /* Callout.xib */; };
+		4255CA211B8CB74E0015EB8E /* CustomPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4255CA1F1B8CB74E0015EB8E /* CustomPin.swift */; };
+		4255CA221B8CB74E0015EB8E /* CustomCallout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4255CA201B8CB74E0015EB8E /* CustomCallout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		4255CA0D1B8CB16E0015EB8E /* CustomMapPinCalloutBubbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomMapPinCalloutBubbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4255CA121B8CB16E0015EB8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4255CA131B8CB16E0015EB8E /* CustomMapPinCalloutBubbleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMapPinCalloutBubbleTests.swift; sourceTree = "<group>"; };
+		4255CA1D1B8CB2330015EB8E /* Callout.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Callout.xib; sourceTree = "<group>"; };
+		4255CA1F1B8CB74E0015EB8E /* CustomPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPin.swift; sourceTree = "<group>"; };
+		4255CA201B8CB74E0015EB8E /* CustomCallout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCallout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +85,12 @@
 			children = (
 				4255C9FD1B8CB16E0015EB8E /* AppDelegate.swift */,
 				4255C9FF1B8CB16E0015EB8E /* ViewController.swift */,
+				4255CA1F1B8CB74E0015EB8E /* CustomPin.swift */,
+				4255CA201B8CB74E0015EB8E /* CustomCallout.swift */,
 				4255CA011B8CB16E0015EB8E /* Main.storyboard */,
 				4255CA041B8CB16E0015EB8E /* Images.xcassets */,
 				4255CA061B8CB16E0015EB8E /* LaunchScreen.xib */,
+				4255CA1D1B8CB2330015EB8E /* Callout.xib */,
 				4255C9FB1B8CB16E0015EB8E /* Supporting Files */,
 			);
 			path = CustomMapPinCalloutBubble;
@@ -192,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4255CA1E1B8CB2330015EB8E /* Callout.xib in Resources */,
 				4255CA031B8CB16E0015EB8E /* Main.storyboard in Resources */,
 				4255CA081B8CB16E0015EB8E /* LaunchScreen.xib in Resources */,
 				4255CA051B8CB16E0015EB8E /* Images.xcassets in Resources */,
@@ -212,6 +222,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4255CA211B8CB74E0015EB8E /* CustomPin.swift in Sources */,
+				4255CA221B8CB74E0015EB8E /* CustomCallout.swift in Sources */,
 				4255CA001B8CB16E0015EB8E /* ViewController.swift in Sources */,
 				4255C9FE1B8CB16E0015EB8E /* AppDelegate.swift in Sources */,
 			);
